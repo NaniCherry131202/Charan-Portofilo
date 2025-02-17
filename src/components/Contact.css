@@ -1,0 +1,101 @@
+/* Contact Section */
+.contact__container {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #1e1e2f, #3a3a50);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Title */
+.contact__text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f8f8f8;
+    margin-bottom: 20px;
+}
+
+/* Contact Links Container */
+.contact__links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Individual Contact Link */
+.contact__link {
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism Effect */
+    backdrop-filter: blur(8px);
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.contact__link:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Contact Icons */
+.contact__link img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+}
+
+/* Icon Hover Effect */
+.contact__link:hover img {
+    transform: scale(1.1);
+}
+
+/* Contact Text */
+.contact__link a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for Links */
+.contact__link:hover a {
+    color: #ffcc00;
+}
+
+/* Responsive Design */
+
+/* Tablets (768px and above) */
+@media (min-width: 768px) {
+    .contact__links {
+        max-width: 700px;
+        grid-template-columns: repeat(2, minmax(180px, 1fr)); /* Two items per row */
+    }
+}
+
+/* Large Screens (1024px and above) */
+@media (min-width: 1024px) {
+    .contact__links {
+        max-width: 800px;
+        grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Maintain two per row */
+    }
+}
+
+/* Mobile Screens (Below 768px) */
+@media (max-width: 767px) {
+    .contact__links {
+        grid-template-columns: repeat(1, minmax(180px, 1fr)); /* Stack items */
+    }
+}

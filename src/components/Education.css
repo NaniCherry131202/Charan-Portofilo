@@ -1,0 +1,104 @@
+/* General Styles */
+.education__container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title */
+.education__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ccc; /* Soft contrast */
+    margin-bottom: 30px;
+}
+
+/* Card Styling */
+.education__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1); /* Subtle transparency */
+    backdrop-filter: blur(8px); /* Glass effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.education__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Education Icon */
+.education__icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Text Styling */
+.education__details {
+    text-align: left;
+    color: #fff;
+}
+
+.education__degree {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.education__university {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.education__years, .education__cgpa {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Fixing Blur Issue on 1440px */
+@media (min-width: 1440px) {
+    .education__card {
+        backdrop-filter: none; /* Remove blur effect */
+        background: rgba(255, 255, 255, 0.15); /* Slightly more solid */
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .education__title {
+        font-size: 2rem;
+    }
+
+    .education__card {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .education__icon {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .education__title {
+        font-size: 1.8rem;
+    }
+
+    .education__degree {
+        font-size: 1.1rem;
+    }
+
+    .education__university {
+        font-size: 1.2rem;
+    }
+}

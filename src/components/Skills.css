@@ -1,0 +1,117 @@
+/* General Styles */
+.skills__container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Title */
+.skills__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+/* Skills Grid */
+.skills__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Skill Card */
+.skills__card {
+    background: rgba(255, 255, 255, 0.1); /* Subtle transparency */
+    backdrop-filter: blur(8px); /* Glassmorphism effect */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.skills__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Skill Image */
+.skills__imageContainer {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.skills__imageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Skill Name */
+.skills__name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills__title {
+        font-size: 2rem;
+    }
+
+    .skills__grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+    }
+
+    .skills__card {
+        padding: 15px;
+    }
+
+    .skills__imageContainer {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skills__name {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills__title {
+        font-size: 1.8rem;
+    }
+
+    .skills__grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .skills__card {
+        padding: 10px;
+    }
+
+    .skills__imageContainer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skills__name {
+        font-size: 0.9rem;
+    }
+}
