@@ -1,6 +1,6 @@
 import React from 'react'
 import charan from "../assets/Charan Hero.jpg"
-import Resume from '../assets/Resume.pdf'
+import Resume from '../assets/Charan_Resume.pdf'
 import "./Hero.css"
 
 const Hero = () => {
