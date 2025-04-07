@@ -57,7 +57,7 @@ export const projects = [
   },
   {
     title: "Real-Time Chat Application",
-    subtitle: " MERN STACK Project ",
+    subtitle: " MERN STACK Website ",
     imageSrc: project2,
     description:
       "A real-time chat application with JWT authentication, built using the MERN stack and Socket.io for seamless communication.",
@@ -67,7 +67,7 @@ export const projects = [
   },
   {
     title: "Quiz Application",
-    subtitle: '" MERN STACK Website "',
+    subtitle: " MERN STACK Website ",
     imageSrc: project3,
     description:
       "A MERN stack-based quiz application with JWT authentication and a Tailwind CSS frontend for a smooth user experience.",
