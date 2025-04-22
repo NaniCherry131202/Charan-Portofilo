@@ -12,37 +12,45 @@ import project3 from "../assets/Last Project.png"
 
 export const skills = [
   {
+    id: 1,
     title: "HTML",
     imageSrc: html,
   },
   {
+    id: 2,
     title: "CSS",
     imageSrc: css,
   },
   {
+    id: 3,
     title: "Bootstrap",
     imageSrc: bootstrap,
   },
   {
+    id: 4,
     title: "JavaScript",
     imageSrc: javascript,
   },
   {
+    id: 5,
     title: "React",
     imageSrc: react,
   },
   {
+    id: 6,
     title: "Material UI",
     imageSrc: materialUI,
   },
   {
-     title: "Node",
-   imageSrc: node,
+    id: 7,
+    title: "Node",
+    imageSrc: node,
   },
   {
+    id: 8,
     title: "MongoDB",
     imageSrc: mongo,
-   },
+  },
 ];
 
 export const projects = [

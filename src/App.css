@@ -42,7 +42,17 @@ html {
   z-index: 2;
   margin: 0 10%;
 }
+/* Navbar Logo */
+.navbar__logo {
+  height: 30px; /* Reduced height to make the logo smaller */
+  width: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image scales properly */
+  transition: transform 0.3s ease; /* Add a hover effect */
+}
 
+.navbar__logo:hover {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
 .navbar__title {
   font-size: 30px;
   font-weight: 600;

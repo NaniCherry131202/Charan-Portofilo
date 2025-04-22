@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import closeIcon from '../assets/closeIcon.png';
 import menuIcon from '../assets/menuIcon.png';
-
+import C from '../assets/C.png'; // Add your logo image here
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +16,13 @@ const Nav = () => {
 
     return (
         <nav className='navbar'>
-            <a href='/' className='navbar__title' aria-label="Go to homepage">Portfolio</a>
+            <a href='/' className='navbar__title' aria-label="Go to homepage">
+                <img 
+                    src={C} 
+                    alt="Portfolio Logo" 
+                    className="navbar__logo" 
+                />
+            </a>
             <div className='navbar__menu'>
                 <img
                     className='navbar__menuBtn'
