@@ -43,7 +43,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-slate-400 text-lg md:text-xl max-w-xl mb-10 leading-relaxed"
         >
-          I'm a Senior Full Stack Engineer specializing in the MERN stack, Next.js, and AI integrations. I architect enterprise-grade SaaS platforms, autonomous AI chatbots, and comprehensive ERP systems that drive real business value.
+          I'm a Full Stack Engineer &amp; AI Systems Architect specializing in Next.js, React, Node.js, and LLMs. I architect enterprise SaaS platforms, autonomous AI voice receptionists, and comprehensive ERP &amp; HRMS systems that drive real business value.
         </motion.p>
         
         <motion.div 
@@ -58,7 +58,7 @@ export default function Hero() {
           </a>
           
           <div className="flex items-center gap-4 text-slate-300">
-            <a href="https://github.com/Charan-Peddi" target="_blank" rel="noreferrer" className="hover:text-emerald-400 hover:-translate-y-1 transition-all duration-300 p-2">
+            <a href="https://github.com/NaniCherry131202" target="_blank" rel="noreferrer" className="hover:text-emerald-400 hover:-translate-y-1 transition-all duration-300 p-2">
               <FaGithub size={28} />
             </a>
             <a href="https://www.linkedin.com/in/charanpeddi" target="_blank" rel="noreferrer" className="hover:text-emerald-400 hover:-translate-y-1 transition-all duration-300 p-2">

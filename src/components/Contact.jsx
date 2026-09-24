@@ -60,7 +60,7 @@ export default function Contact() {
           <p className="text-slate-400 text-lg mb-8 leading-relaxed">
             I'm currently looking for new opportunities. Whether you have a question, a project proposal, or just want to say hi, my inbox is always open. I'll try my best to get back to you!
           </p>
-          <a href="mailto:charanpeddipd@gmail.com" className="inline-block border-2 border-emerald-400 text-emerald-400 px-8 py-4 rounded font-mono hover:bg-emerald-400/10 transition-colors">
+          <a href="mailto:charanpeddi37@gmail.com" className="inline-block border-2 border-emerald-400 text-emerald-400 px-8 py-4 rounded font-mono hover:bg-emerald-400/10 transition-colors">
             Say Hello
           </a>
         </motion.div>
