@@ -171,19 +171,19 @@ export const education = [
   {
     degree: "B.Tech (Computer Science and Engineering)",
     school: "Mahatma Gandhi University, Nalgonda",
-    period: "2020 - 2024",
-    details: "CGPA: 6.85/10",
+    period: "11/2020 – 04/2024",
+    details: "CGPA: 6.85 / 10",
   },
   {
     degree: "Intermediate (MPC)",
     school: "Krishnaveni Junior College, Warangal",
-    period: "2018 - 2020",
-    details: "Marks: 937",
+    period: "04/2018 – 04/2020",
+    details: "Score: 937 Marks",
   },
   {
-    degree: "SSC",
+    degree: "Secondary School Certificate (SSC)",
     school: "Ushodaya High School, Warangal",
-    period: "2018",
-    details: "CGPA: 8.7",
+    period: "04/2018",
+    details: "CGPA: 8.7 / 10",
   },
 ];

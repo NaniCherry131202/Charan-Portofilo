@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import DeveloperBackground from './components/DeveloperBackground';
 import Experience from './components/Experience';
+import Education from './components/Education';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Testimonials from './components/Testimonials';
@@ -29,6 +30,7 @@ function App() {
         <main className="relative z-10 flex flex-col items-center px-6 md:px-12 lg:px-24">
           <Hero />
           <Experience />
+          <Education />
           <Projects />
           <GithubGraph />
           <Skills />
